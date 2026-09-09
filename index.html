@@ -1,1 +1,31 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de proyectos – Quasar Engine Labs</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--  ↙  El script ahora está en un archivo externo -->
+    <script src="assets/scripts/github_repos.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de proyectos de software</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="privacy.html">Aviso de Privacidad</a>
+            <a href="terms.html">Términos y Condiciones</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="repos">
+            <h2>Repositorios públicos disponibles</h2>
+            <ul id="repo-list"><!-- se rellenará con github_repos.js --></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Quasar Engine Labs</p>
+    </footer>
+</body>
+</html>
